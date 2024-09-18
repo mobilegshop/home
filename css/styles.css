@@ -4150,6 +4150,7 @@ textarea.form-control-lg {
 }
 
 .card {
+  width: 60%;
   --bs-card-spacer-y: 1rem;
   --bs-card-spacer-x: 1rem;
   --bs-card-title-spacer-y: 0.5rem;
@@ -7175,7 +7176,7 @@ textarea.form-control-lg {
 
 .border-primary {
   --bs-border-opacity: 1;
-  border-color: rgba(var(--bs-primary-rgb), var(--bs-border-opacity)) !important;
+  border-color: #00AEEE;
 }
 
 .border-secondary {
@@ -7994,6 +7995,10 @@ textarea.form-control-lg {
 
 .text-center {
   text-align: center !important;
+}
+
+.text-justify {
+  text-align: justify !important;
 }
 
 .text-decoration-none {
@@ -11224,7 +11229,7 @@ header.masthead .masthead-heading {
     min-height: 170px;
   }
   .timeline > li .timeline-panel {
-    padding: 50px 20px 20px 100px;
+    padding: 15px 20px 20px 100px;
   }
   .timeline > li .timeline-image {
     width: 170px;
@@ -11436,7 +11441,7 @@ section#contact form#contactForm :-ms-input-placeholder {
 
 .container .btn-float .btn{
     text-decoration: none;
-    font-size: 1.5rem;
+    font-size: 2rem;
     font-weight: bold;
     letter-spacing: 2px;
     background-color: #00AEEE;
